@@ -1,4 +1,8 @@
 /*Declaration of CSS variables for light/dark theme*/
+@font-face {
+  font-family: "NewYork";
+  src: url(../fonts/NewYork.otf);
+}
 
 html[data-theme="light"] {
   --col-icon: black;
@@ -41,7 +45,7 @@ html[data-theme="dark"] {
 }
 /* Particle effect*/
 body{
-  font-family: "Poppins";
+  font-family: NewYork;
 }
 #home,
 #particles-js {
@@ -57,10 +61,11 @@ body{
 }
 
 .text .header {
-  font-weight: bold;
+  font-family: NewYork;
 }
 
 .text {
+  font-family: NewYork;
   font-size: 25px;
   top: 40%;
   left: 50%;
@@ -69,15 +74,18 @@ body{
 }
 
 .animated-text span {
+  font-family: NewYork;
   display: none;
   line-height: 1;
 }
 
 .animated-text span.active {
+  font-family: NewYork;
   display: inline;
 }
 
 .animated-text:after {
+  font-family: NewYork;
   content: ".";
   display: inline;
   width: 6px;
